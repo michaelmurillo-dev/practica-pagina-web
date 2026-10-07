@@ -1,0 +1,83 @@
+/* Estilos generales: fuente, colores de fondo y márgenes */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff; /* blanco */
+  color: #0a2540; /* azul oscuro para el texto */
+  margin: 0;
+  padding: 0;
+}
+
+/* Encabezado con fondo azul oscuro y texto blanco */
+header {
+  background-color: #0a2540;
+  color: #ffffff;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+/* Secciones principales centradas y con buen espacio */
+section {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+/* Títulos en azul oscuro */
+h2 {
+  color: #0a2540;
+}
+
+/* Botón con fondo celeste y texto azul oscuro */
+button {
+  background-color: #87ceeb; /* celeste */
+  color: #0a2540;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Efecto al pasar el mouse sobre el botón */
+button:hover {
+  background-color: #5db9e6;
+}
+
+/* Estilo del mensaje de bienvenida */
+#mensajeBienvenida {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #0077b6;
+}
+
+/* Lista de habilidades sin viñetas y centrada */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Cada habilidad con estilo de tarjeta */
+li {
+  background-color: #e3f2fd; /* celeste muy claro */
+  margin: 10px auto;
+  padding: 12px;
+  border-radius: 8px;
+  max-width: 400px;
+}
+
+/* Pie de página azul oscuro con texto blanco */
+footer {
+  background-color: #0a2540;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+/* Ajustes para teléfonos móviles */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 26px;
+  }
+}
